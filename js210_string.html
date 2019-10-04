@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Strings</title>
+
+	<script type="text/javascript">
+		var texto = 'Soy una variable de texto'
+		document.write(texto.length) //23
+		document.write('<br>')
+		document.write('toUpperCase ' + texto.toUpperCase())
+		document.write('<br>')
+
+		document.write('toLowerCase ' + texto.toLowerCase())
+		document.write('<br>')
+
+		document.write('lastIndexOf ' + texto.lastIndexOf('o'))
+		document.write('<br>')
+
+		document.write('indexOf ' + texto.indexOf('una'))
+		document.write('<br>')
+		// posición inicial  - longitud
+		document.write('substr ' + texto.substr(3,6))
+		document.write('<br>')
+		//si no se pone final coge desde hasta el final
+		document.write('substr ' + texto.substr(3))
+		document.write('<br>')
+
+		document.write('<br>')
+		//  posicion inicial (incluye la posición inicial) - posición final sin incluir esta última
+		document.write('substring...-->	' + texto.substring(2,7))
+		document.write('<br>')
+		//devuelve la letra de la posición indicada
+		document.write('charAt(i)...-->	' + texto.charAt(2))
+		document.write('<br>')
+
+		//elimina espacios al inicio y final de la variable
+		var texto1=texto;
+		document.write('trim...-->	' + texto1.trim())
+		document.write('<br>')
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
